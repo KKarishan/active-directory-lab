@@ -60,7 +60,7 @@ The attacker used Hydra from Kali Linux to perform a brute-force attack against 
 hydra -t 4 -V -f -l johnson -P passwords.txt rdp://192.168.0.105
 ```
 
-![Hydra Bruteforce](../assets/hydra_bruteforce.png)
+![Hydra Bruteforce](../assets/incident-01/hydra_bruteforce.png)
 Hydra terminal output showing repeated failed login attempts.
 
 ---
@@ -75,7 +75,7 @@ Hydra terminal output showing repeated failed login attempts.
 * Target Account: johnson
 * Source Network Address: 192.168.0.194
 
-![Event Viewer 4625](../assets/eventviewer_4625.png)
+![Event Viewer 4625](../assets/incident-01/eventviewer_4625.png)
 Event Viewer showing multiple failed logon events.
 
 ---
@@ -88,7 +88,7 @@ The query returned the following:
 | ------------ | ---------------------- | ----- |
 | johnson     | 192.168.0.194           | 75    |
 
-![Splunk Detection](../assets/splunk_detection.png)
+![Splunk Detection](../assets/incident-01/splunk_detection.png)
 Splunk search results showing failed login count exceeding threshold.
 
 ---
