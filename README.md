@@ -75,4 +75,16 @@ This lab simulates a **realistic enterprise environment** for red team vs. blue 
 
 ---
 
+## SOC Incident Reports
+
+As part of this lab, simulated attacks were performed and analyzed to demonstrate detection and response workflows.
+
+Detailed SOC-style incident reports can be found in the [`incidents/`](./incidents) folder.  
+
+Currently included:
+
+- **Incident 1:** Detection and Investigation of RDP Brute-Force Attack Against Active Directory User
+
+---
+
 🙏 Thanks to the MYDFIR YouTube channel — I followed and recreated this lab setup based on their awesome content.
